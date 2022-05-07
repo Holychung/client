@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 export default ({ comments }) => {
   const renderedComments = comments.map(comment => {
     let content;
